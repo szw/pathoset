@@ -1,0 +1,74 @@
+#!/bin/bash
+IFS=$'\n'
+bundle='bundle'
+autoload='autoload'
+
+function get_pathogen {
+    if [ ! -d "$autoload" ]; then
+        mkdir $autoload
+    fi
+    cd $autoload
+    curl -so pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+    cd ..
+}
+
+function do_install {
+    get_pathogen
+    if [ ! -d "$bundle" ]; then
+        mkdir $bundle
+    fi
+	cd $bundle
+    git clone https://github.com/kien/ctrlp.vim.git
+    git clone https://github.com/lambdalisue/vim-django-support.git
+    git clone https://github.com/mileszs/ack.vim
+    git clone https://github.com/msanders/snipmate.vim
+    git clone https://github.com/scrooloose/nerdtree
+    git clone https://github.com/scrooloose/syntastic.git
+    git clone https://github.com/shawncplus/phpcomplete.vim.git
+    git clone https://github.com/sukima/xmledit.git
+    git clone https://github.com/szw/molokai.git
+    git clone https://github.com/szw/rope-vim.git
+    git clone https://github.com/szw/vim-powerline.git
+    git clone https://github.com/tpope/vim-endwise.git
+    git clone https://github.com/tpope/vim-fugitive.git
+    git clone https://github.com/tpope/vim-rails.git
+    git clone https://github.com/tpope/vim-repeat.git
+    git clone https://github.com/tpope/vim-surround.git
+    git clone https://github.com/vim-ruby/vim-ruby.git
+    git clone https://github.com/vim-scripts/indentpython.vim.git
+    git clone https://github.com/vim-scripts/taglist.vim.git
+    cd ..
+}
+
+function usage {
+	echo "usage: $0 [update|install|help]"
+}
+
+function do_update {
+	for dir in `ls "$bundle/"`
+	do
+		if [ -d "$bundle/$dir" ]; then
+			cd $bundle/$dir
+			git pull
+			cd ../..
+		fi
+	done
+}
+
+if [ -z "$1" ]; then
+    echo "Trying to install new plugins and update..."
+    echo
+    do_install
+    do_update
+elif [ "$1" = "update" ]; then
+    echo "Trying to update..."
+    echo
+    do_update
+elif [ "$1" = "install" ]; then
+    echo "Trying to install new plugins..."
+    echo
+    do_install
+else
+	usage
+fi
+

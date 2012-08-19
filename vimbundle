@@ -37,6 +37,7 @@ function do_install {
     git clone https://github.com/vim-ruby/vim-ruby.git
     git clone https://github.com/vim-scripts/indentpython.vim.git
     git clone https://github.com/vim-scripts/taglist.vim.git
+    git clone https://github.com/szw/vim-dict.git
     cd ..
 }
 

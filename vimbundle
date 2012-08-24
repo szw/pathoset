@@ -26,7 +26,7 @@ function do_install {
     git clone https://github.com/scrooloose/syntastic.git
     git clone https://github.com/shawncplus/phpcomplete.vim.git
     git clone https://github.com/sukima/xmledit.git
-    git clone https://github.com/szw/molokai.git
+    git clone https://github.com/szw/moloterm.gim
     git clone https://github.com/szw/rope-vim.git
     git clone https://github.com/szw/vim-powerline.git
     git clone https://github.com/tpope/vim-endwise.git

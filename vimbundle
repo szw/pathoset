@@ -36,6 +36,7 @@ function do_install {
     git clone https://github.com/tpope/vim-surround.git
     git clone https://github.com/vim-ruby/vim-ruby.git
     git clone https://github.com/vim-scripts/indentpython.vim.git
+    git clone https://github.com/vim-scripts/Tabmerge.git
     git clone https://github.com/vim-scripts/taglist.vim.git
     git clone https://github.com/szw/vim-dict.git
     git clone https://github.com/szw/vim-g.git

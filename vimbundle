@@ -41,6 +41,7 @@ function do_install {
     git clone https://github.com/szw/vim-dict.git
     git clone https://github.com/szw/vim-g.git
     git clone https://github.com/szw/vim-overlen.git
+    git clone https://github.com/szw/vim-tags.git
     cd ..
 }
 

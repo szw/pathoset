@@ -21,8 +21,10 @@ function do_install {
     git clone https://github.com/kchmck/vim-coffee-script.git
     git clone https://github.com/kien/ctrlp.vim.git
     git clone https://github.com/lambdalisue/vim-django-support.git
+    git clone https://github.com/majutsushi/tagbar.git
     git clone https://github.com/mileszs/ack.vim
     git clone https://github.com/msanders/snipmate.vim
+    git clone https://github.com/pangloss/vim-javascript.git
     git clone https://github.com/scrooloose/nerdtree
     git clone https://github.com/scrooloose/syntastic.git
     git clone https://github.com/shawncplus/phpcomplete.vim.git
@@ -44,7 +46,6 @@ function do_install {
     git clone https://github.com/vim-ruby/vim-ruby.git
     git clone https://github.com/vim-scripts/Tabmerge.git
     git clone https://github.com/vim-scripts/indentpython.vim.git
-    git clone https://github.com/vim-scripts/taglist.vim.git
     cd ..
 }
 

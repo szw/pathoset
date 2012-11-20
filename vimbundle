@@ -33,7 +33,6 @@ function do_install {
     git clone https://github.com/szw/rope-vim.git
     git clone https://github.com/szw/vim-dict.git
     git clone https://github.com/szw/vim-g.git
-    git clone https://github.com/szw/vim-overlen.git
     git clone https://github.com/szw/vim-powerline.git
     git clone https://github.com/szw/vim-tags.git
     git clone https://github.com/tpope/vim-abolish.git

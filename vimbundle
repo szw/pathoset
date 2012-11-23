@@ -13,7 +13,6 @@ function get_pathogen {
 }
 
 function do_install {
-    get_pathogen
     if [ ! -d "$bundle" ]; then
         mkdir $bundle
     fi
@@ -67,15 +66,18 @@ function do_update {
 if [ -z "$1" ]; then
     echo "Trying to install new plugins and update..."
     echo
+    get_pathogen
     do_install
     do_update
 elif [ "$1" = "update" ]; then
     echo "Trying to update..."
     echo
+    get_pathogen
     do_update
 elif [ "$1" = "install" ]; then
     echo "Trying to install new plugins..."
     echo
+    get_pathogen
     do_install
 else
 	usage

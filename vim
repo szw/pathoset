@@ -1,9 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 INTERVAL=14400 # 4 hours
-
 VIM_FILES_PATH="$HOME/.vim"
-
-MARKER='.vimbundle_marker'
 
 if [ $(uname -s) = "Darwin" ]; then
     STAT="stat -f %m"
@@ -12,6 +9,8 @@ else
     STAT="stat -c %Y"
     VIM_EXECUTABLE='/usr/bin/vim'
 fi
+
+MARKER='.vimbundle_marker'
 
 function run_vimbundle {
     echo "It's time to check plugin updates..."
@@ -31,5 +30,6 @@ else
 fi
 
 cd - >> /dev/null
-$VIM_EXECUTABLE $@
+
+exec "$VIM_EXECUTABLE" $@
 

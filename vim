@@ -31,5 +31,5 @@ fi
 
 cd - >> /dev/null
 
-exec "$VIM_EXECUTABLE" $@
+exec $VIM_EXECUTABLE $@
 

@@ -10,23 +10,23 @@ else
     VIM_EXECUTABLE='/usr/bin/vim'
 fi
 
-MARKER='.vimbundle_marker'
+MARKER='.pathoset_marker'
 
-function run_vimbundle {
+function run_pathoset {
     echo "It's time to check plugin updates..."
     echo
     touch $MARKER
-    ./vimbundle update
+    ./pathoset update
 }
 
 cd $VIM_FILES_PATH
 
 if [ -f $VIM_FILES_PATH/$MARKER ]; then
     if [ $((`date +%s` - `$STAT $VIM_FILES_PATH/$MARKER`)) -gt $INTERVAL ]; then
-        run_vimbundle
+        run_pathoset
     fi
 else
-    run_vimbundle
+    run_pathoset
 fi
 
 cd - >> /dev/null

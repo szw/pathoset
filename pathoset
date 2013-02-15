@@ -18,7 +18,7 @@ function do_xmledit_postinstall {
         ln -s xml.vim eruby.vim 2>/dev/null
         ln -s xml.vim html.vim 2>/dev/null
         ln -s xml.vim xhtml.vim 2>/dev/null
-        cd -
+        cd ../../..
     fi
 }
 

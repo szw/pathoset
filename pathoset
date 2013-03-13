@@ -32,10 +32,10 @@ function do_install {
     git clone https://github.com/kien/ctrlp.vim.git 2>/dev/null
     git clone https://github.com/lambdalisue/vim-django-support.git 2>/dev/null
     git clone https://github.com/majutsushi/tagbar.git 2>/dev/null
-    git clone https://github.com/mileszs/ack.vim 2>/dev/null
-    git clone https://github.com/msanders/snipmate.vim 2>/dev/null
+    git clone https://github.com/mileszs/ack.vim.git 2>/dev/null
+    git clone https://github.com/msanders/snipmate.vim.git 2>/dev/null
     git clone https://github.com/pangloss/vim-javascript.git 2>/dev/null
-    git clone https://github.com/scrooloose/nerdtree 2>/dev/null
+    git clone https://github.com/scrooloose/nerdtree.git 2>/dev/null
     git clone https://github.com/scrooloose/syntastic.git 2>/dev/null
     git clone https://github.com/shawncplus/phpcomplete.vim.git 2>/dev/null
     git clone https://github.com/sukima/xmledit.git 2>/dev/null

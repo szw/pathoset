@@ -26,14 +26,19 @@ function do_install {
     if [ ! -d "$bundle" ]; then
         mkdir $bundle
     fi
-	cd $bundle
+    cd $bundle
     git clone https://github.com/jgdavey/vim-blockle.git 2>/dev/null
+    git clone https://github.com/kana/vim-smartinput.git 2>/dev/null
+    git clone https://github.com/kana/vim-textobj-entire.git 2>/dev/null
+    git clone https://github.com/kana/vim-textobj-line.git 2>/dev/null
+    git clone https://github.com/kana/vim-textobj-user.git 2>/dev/null
     git clone https://github.com/kchmck/vim-coffee-script.git 2>/dev/null
     git clone https://github.com/kien/ctrlp.vim.git 2>/dev/null
     git clone https://github.com/lambdalisue/vim-django-support.git 2>/dev/null
     git clone https://github.com/majutsushi/tagbar.git 2>/dev/null
     git clone https://github.com/mileszs/ack.vim.git 2>/dev/null
     git clone https://github.com/msanders/snipmate.vim.git 2>/dev/null
+    git clone https://github.com/nelstrom/vim-textobj-rubyblock.git 2>/dev/null
     git clone https://github.com/pangloss/vim-javascript.git 2>/dev/null
     git clone https://github.com/scrooloose/nerdtree.git 2>/dev/null
     git clone https://github.com/scrooloose/syntastic.git 2>/dev/null

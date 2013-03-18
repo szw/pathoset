@@ -27,8 +27,8 @@ function do_install {
         mkdir $bundle
     fi
     cd $bundle
+    git clone https://github.com/Raimondi/delimitMate.git 2>/dev/null
     git clone https://github.com/jgdavey/vim-blockle.git 2>/dev/null
-    git clone https://github.com/kana/vim-smartinput.git 2>/dev/null
     git clone https://github.com/kana/vim-textobj-entire.git 2>/dev/null
     git clone https://github.com/kana/vim-textobj-line.git 2>/dev/null
     git clone https://github.com/kana/vim-textobj-user.git 2>/dev/null

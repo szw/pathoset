@@ -60,6 +60,7 @@ function do_install {
     git clone https://github.com/tpope/vim-rails.git 2>/dev/null
     git clone https://github.com/tpope/vim-repeat.git 2>/dev/null
     git clone https://github.com/tpope/vim-surround.git 2>/dev/null
+    git clone https://github.com/tpope/vim-unimpaired.git 2>/dev/null
     git clone https://github.com/vim-ruby/vim-ruby.git 2>/dev/null
     git clone https://github.com/vim-scripts/Tabmerge.git 2>/dev/null
     git clone https://github.com/vim-scripts/indentpython.vim.git 2>/dev/null

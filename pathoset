@@ -92,8 +92,10 @@ function do_update {
 	done
 }
 
-echo 'PATHOSET v. 0.1'
+echo 'PATHOSET v. 0.2'
 echo 'Copyright (c) 2013 Szymon Wrozynski and Contributors'
+echo
+echo "Number of plugins: ${#plugins[*]}"
 echo
 
 if [ -z "$1" ]; then

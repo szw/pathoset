@@ -3,7 +3,8 @@ Pathoset
 
 The Pathogen compatible plugin set installer and updater.
 
-Installation and usage
+
+Installation and Usage
 ----------------------
 
     mkdir ~/.vim
@@ -17,7 +18,7 @@ If you want to perform updates automatically in given time intervals grab the `v
     curl -so v https://raw.github.com/szw/pathoset/master/vim
     chmod +x vim
 
-Next, move it e.g. into your .local/bin directory (assuming it is on your `$PATH` but before orignal
+Next, move it e.g. into your `.local/bin` directory (assuming it is on your `$PATH` but before orignal
 `vim` binary).
 
     mv vim ~/.local/bin
@@ -29,3 +30,10 @@ OS.
 The OSX variant assumes you are using TMux and you have the
 [reattach-to-user-namespace](http://robots.thoughtbot.com/post/19398560514/how-to-copy-and-paste-with-tmux-on-mac-os-x)
 utility installed. If not, remove the `reattach-to-user-namespace` call.
+
+
+`.vimrc` Configuration
+----------------------
+
+Pathoset's set of plugins serves best with some `.vimrc` settings. The most current `.vimrc` file
+can be found [here](https://raw.github.com/szw/dotfiles/master/vimrc).

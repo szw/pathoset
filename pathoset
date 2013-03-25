@@ -20,7 +20,7 @@ plugins=(
     https://github.com/scrooloose/nerdtree.git
     https://github.com/scrooloose/syntastic.git
     https://github.com/shawncplus/phpcomplete.vim.git
-    https://github.com/sukima/xmledit.git
+    https://github.com/szw/xmledit.git
     https://github.com/szw/moloterm.git
     https://github.com/szw/rope-vim.git
     https://github.com/szw/vim-dict.git

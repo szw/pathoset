@@ -28,6 +28,7 @@ plugins=(
     https://github.com/szw/vim-g.git
     https://github.com/szw/vim-maximizer.git
     https://github.com/szw/vim-powerline.git
+    https://github.com/szw/vim-tabclose.git
     https://github.com/szw/vim-tags.git
     https://github.com/tpope/vim-abolish.git
     https://github.com/tpope/vim-characterize.git

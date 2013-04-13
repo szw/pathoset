@@ -18,13 +18,13 @@ plugins=(
     https://github.com/msanders/snipmate.vim.git
     https://github.com/nelstrom/vim-textobj-rubyblock.git
     https://github.com/pangloss/vim-javascript.git
-    https://github.com/roblillack/vim-bufferlist.git
     https://github.com/scrooloose/nerdtree.git
     https://github.com/scrooloose/syntastic.git
     https://github.com/shawncplus/phpcomplete.vim.git
     https://github.com/sukima/xmledit.git
     https://github.com/szw/moloterm.git
     https://github.com/szw/rope-vim.git
+    https://github.com/szw/vim-bufferlist.git
     https://github.com/szw/vim-dict.git
     https://github.com/szw/vim-g.git
     https://github.com/szw/vim-maximizer.git

@@ -1,5 +1,5 @@
 #!/bin/bash
-INTERVAL=43200 # 12 hours
+INTERVAL=28800 # 8 hours
 VIM_FILES_PATH="$HOME/.vim"
 
 if [ $(uname -s) = "Darwin" ]; then

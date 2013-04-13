@@ -5,7 +5,6 @@ autoload='autoload'
 
 plugins=(
     https://github.com/Raimondi/delimitMate.git
-    https://github.com/fholgado/minibufexpl.vim.git
     https://github.com/jgdavey/vim-blockle.git
     https://github.com/kana/vim-textobj-entire.git
     https://github.com/kana/vim-textobj-lastpat.git
@@ -19,6 +18,7 @@ plugins=(
     https://github.com/msanders/snipmate.vim.git
     https://github.com/nelstrom/vim-textobj-rubyblock.git
     https://github.com/pangloss/vim-javascript.git
+    https://github.com/roblillack/vim-bufferlist.git
     https://github.com/scrooloose/nerdtree.git
     https://github.com/scrooloose/syntastic.git
     https://github.com/shawncplus/phpcomplete.vim.git

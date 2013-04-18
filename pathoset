@@ -31,7 +31,7 @@ plugins=(
     https://github.com/szw/vim-g.git
     https://github.com/szw/vim-maximizer.git
     https://github.com/szw/vim-powerline.git
-    https://github.com/szw/vim-tabclose.git
+    https://github.com/szw/vim-smartclose.git
     https://github.com/szw/vim-tags.git
     https://github.com/szw/vim-testrunner.git
     https://github.com/terryma/vim-multiple-cursors.git

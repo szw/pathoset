@@ -19,6 +19,7 @@ plugins=(
     https://github.com/mileszs/ack.vim.git
     https://github.com/msanders/snipmate.vim.git
     https://github.com/nelstrom/vim-textobj-rubyblock.git
+    https://github.com/ngmy/vim-rubocop.git
     https://github.com/pangloss/vim-javascript.git
     https://github.com/scrooloose/nerdtree.git
     https://github.com/scrooloose/syntastic.git

@@ -5,6 +5,7 @@ autoload='autoload'
 
 plugins=(
     https://github.com/Raimondi/delimitMate.git
+    https://github.com/gregsexton/MatchTag.git
     https://github.com/jgdavey/vim-blockle.git
     https://github.com/kana/vim-textobj-entire.git
     https://github.com/kana/vim-textobj-lastpat.git

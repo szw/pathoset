@@ -27,7 +27,7 @@ plugins=(
     https://github.com/sukima/xmledit.git
     https://github.com/szw/moloterm.git
     https://github.com/szw/rope-vim.git
-    https://github.com/szw/vim-bufferlist.git
+    https://github.com/szw/vim-bufferlist2.git
     https://github.com/szw/vim-dict.git
     https://github.com/szw/vim-g.git
     https://github.com/szw/vim-maximizer.git
